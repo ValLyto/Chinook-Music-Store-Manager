@@ -1,3 +1,23 @@
+# Сборка
 bin/
 obj/
+
+# Системные файлы
 .DS_Store
+Thumbs.db
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Файлы настроек IDE
+.vs/
+.idea/
+*.user
+*.suo
+
+# Секреты и конфиги
+*.env
+local.settings.json
